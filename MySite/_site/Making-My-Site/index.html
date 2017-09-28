@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Making My First Site - Jim's Studio Site</title>
+	<meta name="description" content="My journey into making this site using Markdown & Jekyll.">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="">
+	<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-touch-icon-114x114.png">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#d25469">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#d25469">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#d25469">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+
+  
+<header class="main_header">
+  <a href="/" class="logo">Jim's Studio Site</a>
+  <nav class="main_menu">
+    <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
+  </nav>
+</header> <!-- End Section Header -->
+
+<main class="post_content">
+  <article class="post">
+    <header>
+      <div class="post_image">
+        <img src=/assets/img/MakingSite.png alt="Making My First Site">
+      </div>
+      <div class="post_description">
+        <p class="post_meta">2017, Sep 27</p>
+        <h1 class="post_title">Making My First Site</h1>
+      </div>
+    </header> <!-- End Header -->
+
+    <div class="entry_content">
+      <h1 id="making-my-first-site-this-one"><strong>Making My First Site (This One)</strong></h1>
+
+<h2 id="this-was-a-crash-course-into-how-to-code-with-markdown-then-use-a-static-site-generator-and-theme-to-build-the-code-and-then-how-to-get-it-online-i-went-through-a-couple-key-stages-to-get-here">This was a crash course into how to code with Markdown then use a static site generator and theme to build the code and then how to get it online. I went through a couple key stages to get here.</h2>
+
+<ul>
+  <li>
+    <h3 id="installing-jekyll"><strong><em>Installing Jekyll</em></strong></h3>
+  </li>
+  <li>
+    <h4 id="updating-ruby"><strong>Updating Ruby</strong></h4>
+  </li>
+  <li>
+    <h4 id="updating-rubygems"><strong>Updating RubyGems</strong></h4>
+  </li>
+  <li>
+    <h3 id="using-jekyll"><strong><em>Using Jekyll</em></strong></h3>
+  </li>
+  <li>
+    <h4 id="generating-default-jekyll-site"><strong>Generating default Jekyll Site</strong></h4>
+  </li>
+  <li>
+    <h4 id="getting-my-post-into-default-site"><strong>Getting my post into Default Site</strong></h4>
+  </li>
+  <li>
+    <h4 id="generating-my-site-without-theme"><strong>Generating my site (without theme)</strong></h4>
+  </li>
+  <li>
+    <h3 id="applying-a-theme"><strong><em>Applying a theme</em></strong></h3>
+  </li>
+  <li>
+    <h4 id="finding-a-theme"><strong>Finding a theme</strong></h4>
+  </li>
+  <li>
+    <h4 id="generate-theme-site"><strong>Generate theme site</strong></h4>
+  </li>
+  <li>
+    <h4 id="customize-theme"><strong>Customize theme</strong></h4>
+  </li>
+  <li>
+    <h3 id="boom-its-beautiful"><strong><em>Boom! It’s beautiful!</em></strong></h3>
+  </li>
+  <li>
+    <h3 id="upload-to-domain"><strong><em>Upload to domain</em></strong></h3>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="installing-jekyll-1"><strong><em>Installing Jekyll</em></strong></h3>
+<p>First, what is Jekyll. Jekyll is a static site generator that will take .md posts, a theme and generate the html and css necessary to launch. Jekyll required several things to install:</p>
+
+<ul>
+  <li>Ruby 2.0 or higher</li>
+  <li>RubyGems</li>
+  <li>GCC &amp; Make</li>
+</ul>
+
+<p>(Image of Jekyll install reqs)</p>
+
+<p>I started with Ruby:</p>
+
+<h4 id="ruby"><strong>Ruby</strong></h4>
+
+<p>Jekyll required Ruby 2.0 or higher. My Ruby was at 2.0 but I wanted the latest…</p>
+
+<p>(Screenshot of terminal showing Ruby out of date)</p>
+
+<p>So, I went to Ruby’s site and downloaded the latest version.</p>
+
+<p>(Screenshot of ruby’s site, latest version)
+(Screeshot of download)</p>
+
+<p>The files in the download were…foreign. Before proceeding, let’s backup.</p>
+
+<p>(Image of time machine going)</p>
+
+<p>Ok, all safely backed up.</p>
+
+<p>Back to Ruby’s site to figure out how to install.</p>
+
+<p>(Ruby install page screenshot)</p>
+
+    </div>
+    
+    <div class="post_wrapper">
+      <footer class="post_footer cf">
+        <div class="post_share">
+          <span>Share:</span>
+          <a href="https://twitter.com/intent/tweet?text=Making My First Site&url=http://jimmurphy.studio/Making-My-Site/" title="Share on Twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="https://facebook.com/sharer.php?u=http://jimmurphy.studio/Making-My-Site/" title="Share on Facebook" rel="nofollow" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="https://plus.google.com/share?url=http://jimmurphy.studio/Making-My-Site/" title="Share on Google+" rel="nofollow" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a>
+        </div>
+        <div class="post_tag">
+          <span>Tags:</span>
+          
+          <a href="/tags#web" class="tag">web</a>
+          
+          <a href="/tags#design" class="tag">design</a>
+          
+          <a href="/tags#jekyll" class="tag">jekyll</a>
+          
+          <a href="/tags#markdown" class="tag">markdown</a>
+          
+        </div>
+      </footer>
+    </div>
+  </article> <!-- End Section Post -->
+
+  <section class="author cf">
+    <div class="post_wrapper">
+      <div class="author_image">
+        <img src="/assets/img/Headshot.jpg" alt="Author face">
+      </div>
+      <div class="author_info">
+        <h2 class="author_title">Jim Murphy</h2>
+        <p class="author_subtitle">Michigan born and raised. Colorado for grad school at CU-Boulder.</p>
+        <div class="author_social">
+          
+          <span class="author_email"><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:jamu6792@colorado.edu">jamu6792@colorado.edu</a></span>
+          
+          
+          
+          <span class="author_phone"><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+496-169-65-57">(496)-169-6557</a></span>
+          
+
+          
+          <span class="author_website"><i class="fa fa-link" aria-hidden="true"></i> <a href="https://jimmurphy.studio" target="_blank">https://jimmurphy.studio</a></span>
+                      
+        </div>
+      </div>
+    </div>
+  </section> <!-- End Section Author -->
+
+  <section class="recent_box">
+    <div class="post_wrapper">
+      <h2 class="recent_title">Recent post</h2>
+      <div class="recent_list">
+        
+          
+            <a href="/Smarter-Cat-Toy/" class="recent_item" style="background-image: url( /assets/img/ophelia.jpg )"><span>CM Final Project: Smarter Cat Toy</span></a>
+          
+        
+          
+            <a href="/Making-My-Site/" class="recent_item" style="background-image: url( /assets/img/MakingSite.png )"><span>Making My First Site</span></a>
+          
+        
+      </div>
+    </div>
+  </section> <!-- End Section Recent Box -->
+  
+  
+<section class="comment_area">
+  <div class="comment_wrapper">
+    
+    <div id="disqus_thread" class="article-comments"></div>
+    <script>
+      (function() {
+          var d = document, s = d.createElement('script');
+          s.src = '//mr-murphy.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+  </div>
+</section> <!-- End Section Comment Area -->
+  
+</main> <!-- End Section Post Content -->
+
+
+<footer class="main_footer">
+  <div class="wrapper">
+    
+<ul class="social_footer">
+  
+  <li><a href="#" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a></li>      
+  
+  
+  <li><a href="https://twitter.com/wasgunnabut" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+  
+  
+  <li><a href="https://www.instagram.com/wasgunnabut/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+  
+  
+  <li><a href="#" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+  
+  
+  <li><a href="#" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+  
+  
+  <li><a href="https://www.facebook.com/wasgunnabut" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+  
+</ul>
+    <div class="copyright">
+      <p>&copy; 2017 All rights reserved. Design by <a href="https://artemsheludko.github.io" target="_blank">Artem Sheludko</a></p>
+    </div>
+  </div>
+</footer> <!-- End Section Footer -->
+
+
+  
+<div class="top" title="Top"><i class="fa fa-chevron-up" aria-hidden="true"></i></div> <!-- End Top Scroll -->
+  
+<script src="/assets/js/jquery-3.2.1.min.js"></script>
+<script src="/assets/js/jquery.vide.min.js"></script>
+<script src="/assets/js/custom.js"></script>
+<!-- End Javascript -->
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script> <!-- End Analytics -->
+</body>
+</html>
